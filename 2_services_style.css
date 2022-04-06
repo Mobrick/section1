@@ -104,7 +104,6 @@ li.side-menu__categories--selected::before {
     height: 40px;
     background-color: #FF3E79;
     border-radius: 50%;
-    transition-duration: 1s;
 }
 .menu__icon--hides {
     display: none;
@@ -112,6 +111,8 @@ li.side-menu__categories--selected::before {
 
 .menu__icon:hover {
     opacity: 0.5; 
+    transition-property: opacity;
+    transition-duration: 1s;
 }
 
 .menu__logo {
